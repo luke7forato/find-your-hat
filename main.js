@@ -8,11 +8,36 @@ const path = '*';
 class Field {
     constructor() {
         this._field = [
-            [char, char, char, hat, char ],
-            [char, char, char, char, char],
-            [char, char, path, char, char],
-            [char, char, char, char, char],
-            [char, char, char, char, char],
+            [path, char, hole, hole, hole ,char, char, hole, hole, char, char, char, char, char, char, char, char, char, hole, hole, char, hole, hole, char,char, char, char, char, hole, hole],
+            [char, hole, char, hole, char, char, char, char, hole,char, char, char, char, char, char, char, char, char, hole, char, char, char, hole, char,char, hole, hole, char, hole, hole],
+            [char, hole, char, hole, char, char, char, char, hole,char, char, char, char, char, char, char, char, char, hole, char, char, char, hole, char,char, hole, hole, char, hole, hole],
+            [char, hole, char, hole, char, char, char, char, hole,char, char, char, char, char, char, char, char, char, hole, char, char, char, hole, char,char, hole, hole, char, hole, hole],
+            [char, hole, char, hole, char, char, char, char, hole,char, char, char, char, char, char, char, char, char, hole, char, char, char, hole, char,char, hole, hole, char, hole, hole],
+            [char, hole, char, hole, char, char, char, char, hole,char, char, char, char, char, char, char, char, char, hole, char, char, char, hole, char,char, hole, hole, char, hole, hole],
+            [char, hole, char, hole, char, char, char, char, hole,char, char, char, char, char, char, char, char, char, hole, char, char, char, hole, char,char, hole, hole, char, hole, hole],
+            [char, hole, char, hole, char, char, char, char, hole,char, char, char, char, char, char, char, char, char, hole, char, char, char, hole, char,char, hole, hole, char, hole, hole],
+            [char, hole, char, hole, char, char, char, char, hole,char, char, char, char, char, char, char, char, char, hole, char, char, char, hole, char,char, hole, hole, char, hole, hole],
+            [char, hole, char, hole, char, char, char, char, hole,char, char, char, char, char, char, char, char, char, hole, char, char, char, hole, char,char, hole, hole, char, hole, hole],
+            [char, hole, char, hole, char, char, char, char, hole,char, char, char, char, char, char, char, char, char, hole, char, char, char, hole, char,char, hole, hole, char, hole, hole],
+            [char, hole, char, hole, char, char, char, char, hole,char, char, char, char, char, char, char, char, char, hole, char, char, char, hole, char,char, hole, hole, char, hole, hole],
+            [char, hole, char, hole, char, char, char, char, hole,char, char, char, char, char, char, char, char, char, hole, char, char, char, hole, char,char, hole, hole, char, hole, hole],
+            [char, hole, char, hole, char, char, char, char, hole,char, char, char, char, char, char, char, char, char, hole, char, char, char, hole, char,char, hole, hole, char, hole, hole],
+            [char, hole, char, hole, char, char, char, char, hole,char, char, char, char, char, char, char, char, char, hole, char, char, char, hole, char,char, hole, hole, char, hole, hole],
+            [char, hole, char, hole, char, char, char, char, hole,char, char, char, char, char, char, char, char, char, hole, char, char, char, hole, char,char, hole, hole, char, hole, hole],
+            [char, hole, char, hole, char, char, char, char, hole,char, char, char, char, char, char, char, char, char, hole, char, char, char, hole, char,char, hole, hole, char, hole, hole],
+            [char, hole, char, hole, char, char, char, char, hole,char, char, char, char, char, char, char, char, char, hole, char, char, char, hole, char,char, hole, hole, char, hole, hole],
+            [char, hole, char, hole, char, char, char, char, hole,char, char, char, char, char, char, char, char, char, hole, char, char, char, hole, char,char, hole, hole, char, hole, hole],
+            [char, hole, char, hole, char, char, char, char, hole,char, char, char, char, char, char, char, char, char, hole, char, char, char, hole, char,char, hole, hole, char, hole, hole],
+            [char, hole, char, hole, char, char, char, char, hole,char, char, char, char, char, char, char, char, char, hole, char, char, char, hole, char,char, hole, hole, char, hole, hole],
+            [char, hole, char, hole, char, char, char, char, hole,char, char, char, char, char, char, char, char, char, hole, char, char, char, hole, char,char, hole, hole, char, hole, hole],
+            [char, hole, char, hole, char, hole, hole, char, char, char, hole, hole, hole, hole, hole, hole, char, char, char, char, char, char, hole, hole,char, hole, hole, char, hole, hole],
+            [char, hole, char, char, char, hole, hole, char, char, ,char, hole, hole, char, char, char, char, hole, char, hole, char, char, char, char, hole,hole, char, hole, char, char, hole],
+            [char, char, char, hole, hole, char, hole, hole, hole, ,char, hole, hole, char, char, char, char, hole, char, char, hole, hole, hole, char, char,char, char, hole, char, char, hole],
+            [char, hole, hole, hole, hole, char, char, char, hole, ,hole, hole, hole, char, char, char, char, hole, char, hole, hole, char, hole, char, hole,hole, char, char, char, char, hole],
+            [char, char, char, hole, hole, hat, char, char, hole, ,hole, char, hole, char, hole, char, char, hole, hole, hole, char, char, hole, char, hole,hole, hole, char, char, hole, hole],
+            [char, hole, char, hole, hole, hole, char, char, char, ,char, char, hole, char, char, hole, char, hole, hole, hole, char, char, hole, hole, hole,char, char, hole, char, hole, hole],
+            [hole, hole, char, hole, hole, hole, char, char, char, ,char, char, hole, char, char, hole, char, hole, hole, char, char, char, char, char, char,char, char, char, char, hole, hole],
+            [hole, hole, hole, hole, hole, char, char, hole, hole, ,hole, char, char, char, char, hole, char, char, char, char, char, char, char, char, char,hole, char, char, char, hole, hole],
         ];
     }
 
@@ -25,18 +50,18 @@ class Field {
     }
 
     //return an array with a position for the path
-    findIndex() {
+    findIndex(p) {
         const field = this._field;
         let place = [];
         field.forEach(field => {
-            const index = field.indexOf('*');
+            const index = field.indexOf(p);
             place.push(index);
         });
         return place;
     }
 
-    positionY() {
-        let index = this.findIndex();
+    positionY(p) {
+        let index = this.findIndex(p);
         let pY;
         for(let i = 0; i < index.length; i++) {
             if(index[i] !== -1) {
@@ -47,8 +72,8 @@ class Field {
     }
 
     //this is not working
-    positionX() {
-        let index = this.findIndex();
+    positionX(p) {
+        let index = this.findIndex(p);
         let pX;
         for(let i = 0; i < index.length; i++) {
             if(index[i] !== -1) {
@@ -61,81 +86,118 @@ class Field {
 
 
     goUp() {
-        let x = this.positionX();
-        let y = this.positionY();
+        let x = this.positionX('*');
+        let y = this.positionY('*');
         this._field[x][y] = char;
         if(x > 0) {
             x--
         }
-        this._field[x][y] = path;
+        if(this._field[x][y] === hole) {
+            console.log('you fell in the hole!');
+        } else if(this._field[x][y] === hat) {
+            console.log('you found the hat!');
+        } else {
+            this._field[x][y] = path;
+        }
         return this._field;
     }
 
     goDown() {
-        let x = this.positionX();
-        let y = this.positionY();
+        let x = this.positionX('*');
+        let y = this.positionY('*');
         this._field[x][y] = char;
-        if(x < 4) {
+        if(x < 10) {
             x++
         }
-        this._field[x][y] = path;
+        if(this._field[x][y] === hole) {
+            console.log('you fell in the hole!');
+        } else if(this._field[x][y] === hat) {
+            console.log('you found the hat!');
+        } else {
+            this._field[x][y] = path;
+        }
         return this._field;
     }
 
     goLeft() {
-        let x = this.positionX();
-        let y = this.positionY();
+        let x = this.positionX('*');
+        let y = this.positionY('*');
         this._field[x][y] = char;
         if(y > 0) {
             y--
         }
-        this._field[x][y] = path;
+        if(this._field[x][y] === hole) {
+            console.log('you fell in the hole!');
+        } else if(this._field[x][y] === hat) {
+            console.log('you found the hat!');
+        } else {
+            this._field[x][y] = path;
+        }
         return this._field;
     }
 
     goRight() {
-        let x = this.positionX();
-        let y = this.positionY();
+        let x = this.positionX('*');
+        let y = this.positionY('*');
         this._field[x][y] = char;
 
-        if(x < 4) {
+        if(x < 29) {
             y++
         }
-        this._field[x][y] = path;
+        if(this._field[x][y] === hole) {
+            console.log('you fell in the hole!');
+        } else if(this._field[x][y] === hat) {
+            console.log('you found the hat!');
+        } else {
+            this._field[x][y] = path;
+        }
         return this._field;
     }
 
     move() {
-        const direction = prompt('Which way (up, down, left, right)?');
+        const direction = prompt('Which way?');
         let newPosition = [];
         switch (direction) {
-            case 'up':
+            case 'w':
                 newPosition = this.goUp();
                 this._field = newPosition;
                 break;
-            case 'down':
+            case 's':
                 newPosition = this.goDown();
                 this._field = newPosition;
                 break;
-            case 'left':
+            case 'a':
                 newPosition = this.goLeft();
                 this._field = newPosition;
                 break;
-            case 'right':
+            case 'd':
                 newPosition = this.goRight();
                 this._field = newPosition;
                 break;
         }
     }
+
+    checkLife() {
+        let life = this.findIndex('*');
+        life = life.reduce((a, b) => a + b, 0);
+            if(life === -10) {
+                return false;
+            } else {
+                return true;
+            }
+    }
 };
 
 const myField = new Field();
-myField.showField();
-myField.move();
-myField.showField();
-myField.move();
-myField.showField();
-myField.move();
-myField.showField();
-myField.move();
-myField.showField();
+
+function game(array) {
+    array.showField();
+    do
+    array.move(),
+    array.showField();
+    while(array.checkLife() === true);
+    
+    
+}
+
+game(myField);
