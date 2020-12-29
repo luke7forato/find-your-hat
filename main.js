@@ -10,9 +10,9 @@ class Field {
         this._field = [
             [char, char, char, hat, char ],
             [char, char, hole, hole, char],
-            [char, hole, hole, char, char],
+            [char, hole, char, char, char],
             [char, char, char, char, hole],
-            [hole, path, char, hole, hole],
+            [hole, char, char, hole, path],
         ];
     }
 
@@ -35,18 +35,9 @@ class Field {
         return place;
     }
 
-    position() {
-        const field = this._field;
-
-        field.forEach(field => {
-            const index = field.indexOf('*');
-            if(index !== -1) {
-                pX = index;
-            }
-        });
-        
+    positionY() {
         let index = this.findIndex();
-        let coordinates = [];
+        let pY;
         for(let i = 0; i < index.length; i++) {
             if(index[i] !== -1) {
                 pY = index[i];
@@ -55,11 +46,17 @@ class Field {
         return pY;
     }
 
+    //this is not working
     positionX() {
-        const field = this._field;
+        let index = this.findIndex();
         let pX;
-        
+        for(let i = 0; i < index.length; i++) {
+            if(index[i] !== -1) {
+                pX = i;
+            }
+        }
         return pX;
+        
     }
 
     goUp() {
@@ -67,7 +64,13 @@ class Field {
     }
 
     goDown() {
+        let x = this.positionX();
+        let y = this.positionY();
+        let item = this._field[x][y];
+        console.log(item);
+        x++;
 
+        
     }
 
     goLeft() {
@@ -81,3 +84,4 @@ class Field {
 
 const myField = new Field();
 
+myField.goDown();
